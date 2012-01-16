@@ -1,0 +1,8 @@
+HTTPCacheTester is a standalone web server that serves various file types
+and allows for the tester to manipulate the setting of various HTTP caching
+related headers via submitted GET/POST parameters.
+
+This was created in an effort to identify discrepencies in browsers' handling
+of Pragma, Cache-Control and Expires related headers. Popular browsers were
+found to *break* when opening files with their respective applications if
+downloaded over SSL and/or with certain headers set when the file was served.

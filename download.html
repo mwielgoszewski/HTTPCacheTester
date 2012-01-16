@@ -1,0 +1,64 @@
+<html>
+<body>
+<form action="download" method="post">
+
+<table border="1">
+    <tr>
+        <td>public</td>
+        <td><input type="checkbox" name="public"></td>
+    </tr>
+    <tr>
+        <td>private</td>
+        <td><input type="checkbox" name="private"></td>
+    </tr>
+    <tr>
+        <td>no-cache</td>
+        <td><input type="checkbox" name="nocache" checked></td>
+    </tr>
+    <tr>
+        <td>no-store</td>
+        <td><input type="checkbox" name="nostore" checked></td>
+    </tr>
+    <tr>
+        <td>no-transform</td>
+        <td><input type="checkbox" name="notransform" checked></td>
+    </tr>
+    <tr>
+        <td>must-revalidate</td>
+        <td><input type="checkbox" name="mustrevalidate" checked></td>
+    </tr>
+    <tr>
+        <td>max-age</td>
+        <td><input type="text" name="maxage" value=""></td>
+    </tr>
+    <tr>
+        <td>expires</td>
+        <td><input type="text" name="expires" value="-1"></td>
+    </tr>
+    <tr>
+        <td>pragma</td>
+        <td><input type="checkbox" name="pragma" checked></td>
+    </tr>
+    <tr>
+        <td>inline/attachment</td>
+        <td><input type="text" name="disposition" value="inline"></td>
+    </tr>
+    <tr>
+        <td>format</td>
+        <td><select name="format">
+                <option value="pdf" selected>PDF</option>
+                <option value="doc">DOC</option>
+                <option value="docx">DOCX</option>
+                <option value="xls">XLS</option>
+                <option value="xlsx">XLSX</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="Download"></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
